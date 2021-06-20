@@ -5,7 +5,14 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `amandakriguer`,
+    siteTitleAlt: `Amanda Kriguer - Portfolio`,
+    siteHeadline: `Amanda Kriguer - Portfolio`,
+    siteUrl: `https://amandakriguer.com`,
+    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteLanguage: `en`,
+    author: `amandakriguer`,
+    siteImage: ``,
   },
   flags: {
     FAST_DEV: true,
@@ -17,22 +24,22 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `home`,
+            slug: `/`,
           },
           {
-            title: `About`,
+            title: `about`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `linkedin`,
+            url: `https://www.linkedin.com/in/amandakriguer/?locale=en_US`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `behance`,
+            url: `https://www.behance.net/amandakriguer`,
           },
         ],
       },
